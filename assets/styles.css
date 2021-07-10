@@ -1,0 +1,428 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  
+  html {
+    font-size: 13px;
+  }
+  
+  strong {
+    font-weight: 500;
+  }
+  
+  .btn {
+    width: 24px;
+    height: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .container {
+    min-height: 100vh;
+    background-color: #f7f3f3;
+  }
+  
+  section {
+    display: block;
+  }
+  body {
+    line-height: 1;
+  }
+  ol,
+  ul {
+    list-style: none;
+  }
+  blockquote,
+  q {
+    quotes: none;
+  }
+  blockquote:before,
+  blockquote:after,
+  q:before,
+  q:after {
+    content: none;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+
+  * {
+    font-family: "Open Sans", sans-serif;
+  }
+  .row {
+    display: -webkit-flex;
+    display: flex;
+  }
+  
+
+  .column.side {
+    -webkit-flex: 2;
+    -ms-flex: 2;
+    flex: 2;
+  }
+  
+  .column.main {
+    -webkit-flex: 4;
+    -ms-flex: 4;
+    flex: 4;
+    
+  }
+
+  @media (max-width: 600px) {
+    .row {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+  }
+
+  .container {
+    padding: 0 70px;
+  }
+  
+  
+  header {
+    background-color: #fff;
+    height: 56px;
+    min-width: 100%;
+    padding: 0 16px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 800;
+  }
+  
+  .menu-icon {
+    padding: 15px;
+    font-size: 24px;
+  }
+  
+  .social .user-icon {
+    font-size: 32px;
+  }
+  
+  .logo-img,
+  .search,
+  .menu-icon,
+  .logo-img img {
+    margin: auto;
+  }
+  
+  .logo-img img {
+    height: auto;
+    width: 80px;
+  }
+  
+  
+  .search,
+  .search input {
+    border: 1px solid #d3d3d3;
+  }
+  
+  
+  .search {
+    min-width: 40%;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+  }
+  
+  .search a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .search svg {
+    margin: 0 15px;
+  }
+  
+  .search input {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    min-width: 90%;
+  }
+  
+  
+  .icon-search {
+    color: rgb(156, 156, 156);
+    font-size: 20px;
+  }
+  
+  .icon-nav {
+    font-size: 24px;
+    color: #606060;
+  }
+  
+  .social svg {
+    margin: auto 10px;
+  }
+  
+  
+  section,
+  aside {
+    padding: 20px 0;
+    margin-top: 60px;
+  }
+  
+  
+  body {
+    background-color: #f9f9f9;
+  }
+  
+  
+  
+  .main {
+    padding-right: 10px;
+    padding-left: 15px;
+  }
+  
+  
+  iframe {
+    width: 753px;
+    height: 480px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .video,
+  .description {
+    margin: 0 25px;
+    border-bottom: solid 1px #e0e0e0;
+    padding: 5px 0;
+  }
+  
+  .video h1 {
+    margin: 15px 0;
+    font-weight: 600;
+    color: #030303;
+    font-size: 18px;
+  }
+  
+  .video p,
+  .video li,
+  .underline,
+  .thumb-p {
+    font-size: 14px;
+    color: #606060;
+    display: inline;
+  }
+  
+  
+  .social {
+    margin-left: auto;
+  }
+  
+  .social ul li {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .social button {
+    padding: 10px 16px;
+    margin: auto 20px;
+  }
+  
+  .social button {
+    color: #606060;
+  }
+  
+  .underline {
+    border-bottom: solid 2px #909090;
+    padding-bottom: 5px;
+  }
+  
+  
+  .channel {
+    padding: 10px 20px 10px 0;
+  }
+  
+  .channel img {
+    border-radius: 50%;
+  }
+  
+  .channel-title {
+    font-size: 14px;
+    margin: 0 10px;
+    padding: 10px 0;
+  }
+  
+  .channel-title .iconify {
+    color: #fff;
+    background-color: #606060;
+    border-radius: 50%;
+    font-size: 12px;
+  }
+  
+  .channel-title p {
+    font-size: 13px;
+    color: #606060;
+  }
+  
+  .channel .social {
+    margin: auto 0 auto auto;
+    color: #909090;
+  }
+  
+  .channel .social svg {
+    font-size: 18px;
+    margin: auto;
+  }
+  
+  .thumb {
+    height: fit-content;
+    margin: 5px 0;
+  }
+  
+  .side img {
+    padding: 1px 15px;
+  }
+  
+  .thumb-p {
+    display: block;
+    font-size: 12px;
+  }
+  
+  .thumb-p svg {
+    color: #606060;
+  }
+  
+  .comments-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .comments-count {
+    font-size: 1.6rem;
+  }
+  
+  .sort-btn {
+    display: flex;
+    align-items: center;
+    width: auto;
+    margin-left: 3rem;
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #aaa;
+  }
+  
+  .sort-btn img {
+    padding-right: 1rem;
+  }
+  
+  .new-comment,
+  .comment {
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+    width: 100%;
+  }
+  
+  .user-avatar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .comment-input {
+    flex-grow: 1;
+    align-self: self-start;
+    margin: 0 2.4rem 0 1.5rem;
+    height: 2.5rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #393939;
+  }
+  
+  .comment {
+    align-items: initial;
+  }
+  
+  .comment-info {
+    margin-left: 1.5rem;
+  }
+  
+  .comment-user {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-name,
+  .comment-time {
+    font-size: 1.3rem;
+  }
+  
+  .comment-time {
+    padding-left: 0.5rem;
+    color: #aaa;
+  }
+  
+  .comment-text {
+    padding: 0.5rem 0 0.5rem 0;
+    line-height: 1.5;
+    font-size: 1.4rem;
+  }
+  
+  .comment-options,
+  .cm-show-replies-btn {
+    display: flex;
+    align-items: center;
+  }
+  
+  .comment-options .btn {
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 32px;
+    color: #aaa;
+  }
+  
+  .comment-options .btn img {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .btn.cm-like-btn,
+  .btn.cm-dislike-btn {
+    padding-right: 1.5rem;
+  }
+  
+  .cm-like-btn span,
+  .cm-reply-btn span {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #aaa;
+  }
+  
+  .cm-like-btn span {
+    padding-left: 1rem;
+  }
+  
+  .cm-reply-btn {
+    padding: 0 1rem;
+  }
+  
+  .cm-show-replies-btn {
+    width: auto;
+  }
+  
+  .cm-show-replies-btn img {
+    margin-left: -6px;
+  }
+  
+  .cm-show-replies-btn span {
+    padding-left: 0.5rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #3ea6ff;
+  }
